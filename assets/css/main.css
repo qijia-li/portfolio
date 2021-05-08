@@ -125,7 +125,7 @@ h6 {
     }
 
    
-  
+ /*-----header-----*/
   .header {
     margin-top: 20px;
     position: relative;
@@ -145,8 +145,6 @@ h6 {
     overflow: hidden;
   }
 
-
-
   .header .contact-link:hover {color:#D9472A ; }
 
   .sameline{
@@ -160,10 +158,7 @@ h6 {
 
 
 
-
-  
-
-
+ /*-----landing Page-----*/
   .landing {
     position: relative;
   }
@@ -171,6 +166,8 @@ h6 {
   .landingL {
       margin-top: 20px;
   }
+
+   /*-----main Session----*/
   .main-banner {
     background-size: cover;
     background-position: center;
@@ -183,8 +180,6 @@ h6 {
     margin: 0 auto;
     width: 100%;
     padding-top: 32px;
-    /* border: #DBBD7F solid 5px; */
-    /* max-width: 600px; */
     position: relative;
     z-index: 10;
   }
@@ -192,17 +187,11 @@ h6 {
     margin-bottom: 24px;
   }
 
-  
 
 
   .main-banner .main-banner-content h5 {
     margin: 0 auto 24px auto;
-    /* width: 93.33333333%; */
-    /* 560/672 */
   }
-  
-
-  
   
   
   .recent-posts {
@@ -257,9 +246,8 @@ h6 {
 
 
 
-  
 
-
+/*-----Wave Hand----*/
   @keyframes wave {
     0% { transform: rotate(0.0deg) }
     10% { transform: rotate(16.0deg) }
@@ -332,9 +320,6 @@ h6 {
   top: 55%;
   left:50%;
   text-align: center;
-  /* padding:2px 20px; */
-  /* color:#214261 */
-  /* background-color: rgba(255,255,255,0.8); */
   transform: translate(-50%, -50%);
   font-family:"Poppins", sans-serif;
   font-size: 20px;
@@ -344,10 +329,8 @@ h6 {
 
 
 #myBtn {
-  /* display: inline-block; */
   display: none;
   position: fixed;
-  /* bottom: 10%; */
   bottom:10%;
   right: 5%;
   background-color: Transparent;
@@ -358,10 +341,6 @@ h6 {
   position: relative;
 }
 /*----------onHoverChangeImg----------------*/
-/* .work > .workBg img:last-child {display: none}
-
-.work > .workBg:hover img:first-child {display: none}
-.work > .workBg:hover img:last-child {display: inline-block} */
 
 .work > .workBg img:nth-child(2) {display: none}
 .work > .workBg div:nth-child(3) {display: none}
@@ -373,13 +352,8 @@ h6 {
 .work > .workBg:hover div:nth-child(4) {display: inline-block}
 
   
-  
 
-  
-  
-  
-
-  
+  /*----------Footer----------------*/
 
   footer {
     
@@ -411,25 +385,21 @@ h6 {
   
   
   
-  .recent-posts-header.blog-posts-header {
+  .recent-posts-header {
     align-items: center;
     display: flex;
     justify-content: space-between;
   }
-  .recent-posts-header.blog-posts-header .blog-follow-links,
-  .recent-posts-header.blog-posts-header h1,
-  .recent-posts-header.blog-posts-header .blog-search {
+  .recent-posts-header {
     flex-basis: 0;
     flex-shrink: 1;
     flex-grow: 1;
   }
-  .recent-posts-header .blog-follow-links {
+  .recent-posts-header {
     justify-content: flex-start;
     display: flex;
   }
-  .recent-posts-header .blog-follow-links li {
-    align-self: flex-start;
-  }
+  
   .recent-posts-header  a {
     background: #DBBD7F;
     border-radius: 100%;

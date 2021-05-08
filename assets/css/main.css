@@ -149,118 +149,6 @@ h6 {
 
 
   
-  @keyframes small-spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
-  @keyframes blink {
-    0% {
-      opacity: 0.3;
-    }
-    25% {
-      opacity: 0.6;
-    }
-    50% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 0.3;
-    }
-  }
-  @keyframes blink-alt {
-    0% {
-      opacity: 1;
-    }
-    25% {
-      opacity: 0.6;
-    }
-    50% {
-      opacity: 0.3;
-    }
-    75% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes big-spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-
-  
-   .star {
-    position: absolute;
-    z-index: 1;
-  }
-  .star .star-1 {
-    left: 40%;
-    top: 7%;
-    animation: blink 2s ease-in-out infinite;
-  }
-  .star .star-2 {
-    right: 37%;
-    top: 19%;
-    animation: blink-alt 3s ease-in-out infinite;
-  }
-  .star .star-3 {
-    left: 30%;
-    transform: rotate(45deg);
-    top: 24%;
-    animation: blink-alt 4s ease-in-out infinite;
-  }
-  .star .star-4 {
-    right: 28%;
-    top: 27%;
-    transform: rotate(25deg);
-    animation: blink 2.5s ease-in-out infinite;
-  }
-  .star.star-5 {
-    left: 28%;
-    bottom: 20%;
-    transform: rotate(45deg);
-    animation: blink-alt 3.5s ease-in-out infinite;
-  }
-  .star.star-6 {
-    right: 26%;
-    bottom: 18%;
-    transform: rotate(25deg);
-    animation: blink-alt 2s ease-in-out infinite;
-  }
-  .star .star-7 {
-    left: 8%;
-    bottom: 10%;
-    animation: blink 4s ease-in-out infinite;
-  }
-  .star .star-8 {
-    bottom: 10%;
-    right: 5%;
-    animation: blink 3s ease-in-out infinite;
-  }
-  
-  .star .star-9 {
-    animation: blink 4s ease-in-out infinite;
-    left: 15%;
-    top: 6%;
-  }
-  .star .star-10 {
-    animation: blink-alt 3s ease-in-out infinite;
-    right: 8%;
-    top: 12%;
-  }
 
 
   .landing {
@@ -350,22 +238,9 @@ h6 {
     
     /* 588/1264 */
   }
-  .posts-container li h3 {
-    text-transform: uppercase;
-    margin: 16px 0 8px 0;
-    text-align: center;
-  }
+
   
 
-
-  .posts-container li a:hover span {
-    transition: all 0.1s ease-in-out;
-    color: #214261;
-  }
-  .posts-container li a:hover img {
-    opacity: 1;
-    filter: none;
-  }
 
   @keyframes wave {
     0% { transform: rotate(0.0deg) }

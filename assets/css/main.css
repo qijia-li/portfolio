@@ -92,7 +92,6 @@ h6 {
     font-size: 18px;
   }
 
-
  }
  
  @media (min-width: 426px) and (max-width: 1023px) {
@@ -234,12 +233,11 @@ h6 {
   }
   .posts-container li {
     align-self: stretch;
-    margin: 0 0 88px 0;
     position: relative;
     width: 48%;
   }
  .posts-container li {
-      margin: 32px auto;
+      margin: 0 auto;
       max-width: 800px;
       width: 100%;
     }

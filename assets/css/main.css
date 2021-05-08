@@ -88,6 +88,11 @@ h6 {
   h4 {font-size: 28px;}
   h5 {font-size: 23px;}
   p {font-size: 22px;}
+  .header .contact-link{
+    font-size: 18px;
+  }
+
+
  }
  
  @media (min-width: 426px) and (max-width: 1023px) {
@@ -98,49 +103,51 @@ h6 {
   h5 {font-size: 20px;}
   p {font-size: 18px;}
   body {padding: 0px 8% 0 8%;}
+  .header .contact-link{
+    font-size: 16px;
+  }
+
+
   }
  
  
   @media screen and (max-width: 425px) {
-  h1 {font-size: 24px;}
-  h2 {font-size: 2px;}
-  h3 {font-size: 22px;}
-  h4 {font-size: 20px;}
-  h5 {font-size: 18px;}
+  h1 {font-size: 18px; font-weight: 500;}
+  h2 {font-size: 20px; font-weight: 500}
+  h3 {font-size: 20px; font-weight: 500}
+  h4 {font-size: 18px;}
+  h5 {font-size: 16px;}
   p {font-size: 16px;}
   body {padding: 0px 2% 0 2%;}
+  .header .contact-link{
+    font-size: 13px;
+  }
     }
 
-  @media screen and (max-width: 1280px) {
-    body {
-        width: 90%;
-    }  
-  }
    
   
-  header {
-    align-items: center;
-    margin-bottom: 24px;
+  .header {
+    margin-top: 20px;
     position: relative;
-    z-index: 1;
+    overflow: hidden;
   }
-  
 
-  header .contact-link {
+
+  .header .contact-link {
     float: right;
     width: 130px;
-    padding: 5px;
+    max-height: 50px;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 16px;
     letter-spacing: 0.075em;
-    line-height: 1.5em;
     color: #424242;
-    align-items: right;
     text-align: right;
-    
+    overflow: hidden;
   }
-  header .contact-link:hover {color:#D9472A ; }
+
+
+
+  .header .contact-link:hover {color:#D9472A ; }
 
   .sameline{
     display: flex;
@@ -240,11 +247,15 @@ h6 {
     align-self: stretch;
     margin: 0 0 88px 0;
     position: relative;
-    /* width: 46.51898734%; */
     width: 48%;
-    
-    /* 588/1264 */
   }
+ .posts-container li {
+      margin: 32px auto;
+      max-width: 800px;
+      width: 100%;
+    }
+
+
 
   
 
@@ -473,28 +484,7 @@ h6 {
   }
   
   
-   /
-    /* .posts-container li {
-      margin: 32px auto;
-      max-width: 900px;
-      width: 100%;
-    }
-   */
-  }
-  
 
-
-  /*-----Global-----*/
-
-.pink {
-  color: #F48FB1;
-}
-.blue {
-  color: #039BE5;
-}
-.green {
-  color: #AED581;
-}
 
 /*----Nav-----*/
 .nav {
